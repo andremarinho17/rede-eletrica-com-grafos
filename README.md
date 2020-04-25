@@ -41,11 +41,13 @@ torres era, e continua sendo, 4 (0011).
 
 
 2 – Modelagem do Problema como um Grafo G (V,E)
+
 Vértices V: torres
 Arestas E: Cabeamento que liga as torres
 Ponderação das Arestas: Custo em metros de cabeamento das torres
 
 2.1 - Solução para as exigências 1,2 e 3 da Pikachu S.A:
+
 Visto que a Pikachu fará apenas o mínimo de conexões entre torres necessário para
 que as torres estejam todas interconectadas, direta ou indiretamente, e gastará o
 mínimo possível de metros de cabeamento, grafos podem resolver o problema
@@ -63,6 +65,7 @@ menor peso) que toca T
 • Retornar o menor custo possível de metros de cabeamento
 
 2.2 - Solução para as exigências 4,5,6
+
 Para encontrar a quantidade de estagiários e funcionários efetivos, foi necessário
 percorrer toda lista de vértices da árvore e para cada vértice era necessário verificar
 se algum de seus adjacentes já teriam uma estação com funcionário efetivo. Caso
@@ -74,26 +77,45 @@ encontrado é o conjunto independente mínimo.
 
 3 – Testes Realizados
 Foram realizados os testes do arquivo disponível para teste:
+
 6 11
+
 1 2
+
 1 3
+
 1 4
+
 1 5
+
 1 6
+
 2 3
+
 2 6
+
 3 4
+
 3 6
+
 4 6
+
 5 6
+
 000011
+
 001100
+
 001111
+
 110000
+
 110011
+
 111100
 
 3 - Conclusão
+
 Com a modelagem do grafo para resolver o problema em questão e sua posterior
 implementação, foi possível observar que é possível resolver, com algoritmos em
 grafos e os tópicos aprendidos, diversos problemas quanto a caminhos mínimos e
