@@ -2,6 +2,7 @@
 Trabalho Final da disciplina Algoritmo em Grafos, onde que tivemos que conectar torres, usando grafos.
 
 Descrição do que foi feito:
+
 Componentes: André Marinho Moreira, Clinton Julio Novais Amaral, Lucas Stehling Lara Carvalho
 
 1 - Introdução (Descrição do Problema):
