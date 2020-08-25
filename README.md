@@ -1,4 +1,4 @@
-# rede-eletrica-com-grafos
+# Rede Elétrica com Grafos
 Trabalho Final da disciplina Algoritmo em Grafos, onde que tivemos que conectar torres, usando grafos.
 
 Descrição do que foi feito:
